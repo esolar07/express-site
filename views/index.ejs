@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+  	<% include partials/template/head.ejs %>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  	<% include partials/template/header.ejs %>
+    
+    <section class="l-page-wrp">
+    	<div class="main-content">
+    		<h1>Eddie Solar</h1>
+    		<h3>Front-End Web Developer</h3>
+			<p>Hi, I'm Eddie Solar, a completely self-taught front-end web developer from sunny Miami, FL. I have a passion for expanding my craft, building thing for the web and staying on the bleeding edge.</p>
+			<p>I want to be involved in projects that I can be proud of, join an awesome team, and advance my development career. If you're interested in helping me make this happen,
+			</p>
+    	</div>
+    </section>
+
+	<% include partials/template/footer.ejs %>
+    <% include partials/template/jsdefaults.ejs %>
   </body>
 </html>
